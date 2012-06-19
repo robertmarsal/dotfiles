@@ -8,4 +8,4 @@
 [user]
 	name = Robert Boloc
 [alias]
-    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+    lg = git log --decorate --graph --oneline --abrev-commit
