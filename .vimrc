@@ -1,5 +1,7 @@
 " vim config - @robertboloc
 
+syntax on " enable syntax highlighting
+
 set nocompatible " don't act like you're vi
 
 set nowrap " don't wrap lines
