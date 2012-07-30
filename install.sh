@@ -1,14 +1,21 @@
 #!/bin/sh
+#needs sudo rights
 
-#configure vim
+#install & configure vim
+echo 'installing vim...'
+apt-get install vim
 echo 'configuring vim...'
 cp .vimrc $HOME
 
-#configure tmux
+#install & configure tmux
+echo 'installing tmux...'
+apt-get install tmux
 echo 'configuring tmux...'
 cp .tmux.conf $HOME
 
-#configure git
+#install & configure git
+echo 'installing git...'
+apt-get install git
 echo 'configuring git...'
 cp .gitconfig $HOME
 
