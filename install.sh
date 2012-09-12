@@ -29,4 +29,4 @@ wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master
 
 #configure zsh/oh-my-zsh
 cp .zshrc $HOME
-cp robertboloc.zsh.theme $HOME/.oh-my-zsh/themes
+cp robertboloc.zsh-theme $HOME/.oh-my-zsh/themes
