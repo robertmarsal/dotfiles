@@ -1,0 +1,18 @@
+#!/bin/sh
+# needs sudo rights
+
+# install vim
+echo 'installing vim...'
+apt-get install vim
+
+# install tmux
+echo 'installing tmux...'
+apt-get install tmux
+
+# install zsh
+echo 'installing zsh...'
+apt-get install zsh
+
+# install oh-my-zsh
+echo 'installing oh-my-zsh...'
+wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh

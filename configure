@@ -1,0 +1,31 @@
+#!/bin/bash
+
+check_config ()
+{
+    if [ -f $1 ]
+    then
+        echo "succesfully configured $2";
+    else
+        echo "$2 configuration failed!";
+    fi
+}
+
+# configure vim
+#cp .vimrc $HOME
+check_config $HOME/.vimrc vim
+
+# configure tmux
+#cp .tmux.conf $HOME
+check_config $HOME/.tmux.conf tmux
+
+# configure git
+#cp .gitconfig $HOME
+check_config $HOME/.gitconfig git
+
+# configure zsh
+#cp .zshrc $HOME
+check_config $HOME/.zshrc zsh
+
+# configure oh-my-zsh
+# cp robertboloc.zsh-theme $HOME/.oh-my-zsh/themes
+check_config $HOME/.oh-my-zsh/themes/robertboloc.zsh-theme oh-my-zsh
