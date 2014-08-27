@@ -13,3 +13,5 @@
     snapshot = !git stash save "[Snapshot of $(date)]" && git stash apply "stash@{0}"
 [diff]
     algorithm = patience
+[core]
+	editor = vim
