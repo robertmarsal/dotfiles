@@ -28,7 +28,7 @@ check_config $HOME/.gitconfig git
 # Copy config file
 cp .zshrc $HOME
 # Change shell to zsh
-chsh -s /bin/zsh $USER
+chsh -s /usr/bin/zsh $USER
 # Test configuration
 check_config $HOME/.zshrc zsh
 

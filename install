@@ -30,3 +30,6 @@ apt-get install -y google-chrome-stable
 add-apt-repository ppa:kilian/f.lux
 apt-get update
 apt-get install -y fluxgui
+
+# "Fix Ubuntu"
+wget -q -O - https://fixubuntu.com/fixubuntu.sh | bash
