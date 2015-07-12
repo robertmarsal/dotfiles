@@ -47,3 +47,9 @@ a2enmod proxy && a2enmod rewrite
 apt-get install curl
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
+
+# Install Atom
+add-apt-repository ppa:webupd8team/atom
+apt-get update
+apt-get install -y atom
+
