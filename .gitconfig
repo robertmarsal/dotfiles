@@ -17,3 +17,5 @@
     editor = vim
 [push]
     default = current
+[commit]
+    gpgsign = true
