@@ -15,6 +15,7 @@
     algorithm = patience
 [core]
     editor = vim
+    mergeoptions = --no-edit
 [push]
     default = current
 [commit]
