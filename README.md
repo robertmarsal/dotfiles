@@ -1,8 +1,8 @@
-A backup for my configuration files!
+A backup of my configuration files.
 
 #### License
 The MIT License (MIT)  
-Copyright (c) 2012 Robert Boloc
+Copyright (c) 2012-2017 Robert Boloc
  
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
