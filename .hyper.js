@@ -94,7 +94,8 @@ module.exports = {
   plugins: [
     'hyperlinks',
     'hyperterm-atom-dark',
-    'hyper-blink'
+    'hyper-blink',
+    'hyperterm-dibdabs'
   ],
 
   // in development, you can create a directory under
