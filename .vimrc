@@ -1,4 +1,4 @@
-" vim config - @robertboloc
+" vim config - @robertmarsal
 
 syntax on " enable syntax highlighting
 

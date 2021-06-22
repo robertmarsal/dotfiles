@@ -6,8 +6,8 @@
     interactive = auto
     ui = auto
 [user]
-    name = Robert Boloc
-    email = robertboloc@gmail.com
+    name = Robert Marsal
+    email = 
 [alias]
     lg = log --decorate --graph --oneline
     snapshot = !git stash save "[Snapshot of $(date)]" && git stash apply "stash@{0}"

@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Name of the theme to load.
-ZSH_THEME="robertboloc"
+ZSH_THEME="robertmarsal"
 
 # Which plugins to load?
 plugins=(git)

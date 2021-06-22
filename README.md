@@ -2,7 +2,7 @@ A backup of my configuration files.
 
 #### License
 The MIT License (MIT)  
-Copyright (c) 2012-2017 Robert Boloc
+Copyright (c) 2012-2021 Robert Marsal
  
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
