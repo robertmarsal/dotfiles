@@ -14,10 +14,6 @@ check_config ()
 cp .vimrc $HOME
 check_config $HOME/.vimrc vim
 
-# configure tmux
-cp .tmux.conf $HOME
-check_config $HOME/.tmux.conf tmux
-
 # configure git
 cp .gitconfig $HOME
 check_config $HOME/.gitconfig git
@@ -38,9 +34,3 @@ check_config $HOME/.oh-my-zsh/themes/robertboloc.zsh-theme oh-my-zsh
 
 # Configure the terminal
 gconftool -s -t string /apps/gnome-terminal/profiles/Default/background_type transparent
-
-# Configure Redshift (allow it to access the Geoclue service)
-echo '[redshift]' >> /etc/geoclue/geoclue.conf
-echo 'allowed=true' >> /etc/geoclue/geoclue.conf
-echo 'system=false' >> /etc/geoclue/geoclue.conf
-echo 'users=' >> /etc/geoclue/geoclue.conf

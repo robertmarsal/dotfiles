@@ -8,48 +8,10 @@ apt-get update
 echo 'installing vim...'
 apt-get install vim
 
-# Install tmux
-echo 'installing tmux...'
-apt-get install tmux
-
 # Install zsh
 echo 'installing zsh...'
 apt-get install zsh
 
 # Install oh-my-zsh
 echo 'installing oh-my-zsh...'
-wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
-
-# Install Google Chrome
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list
-apt-get update
-apt-get install -y google-chrome-stable
-
-# Install Redshift
-apt-get install redshift redshift-gtk
-
-# "Fix Ubuntu"
-wget -q -O - https://fixubuntu.com/fixubuntu.sh | bash
-
-# Install Java 8 from Oracle
-add-apt-repository ppa:webupd8team/java
-apt-get update
-apt-get install oracle-java8-installer
-
-# Install LAMP
-apt-get install -y apache2
-apt-get install -y mysql-server mysql-client && mysql_secure_installation
-apt-get install php5 libapache2-mod-php5 php5-mysql php5-curl php5-mcrypt
-a2enmod proxy && a2enmod rewrite
-
-# Install Composer
-apt-get install curl
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
-
-# Install Atom
-add-apt-repository ppa:webupd8team/atom
-apt-get update
-apt-get install -y atom
-
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
